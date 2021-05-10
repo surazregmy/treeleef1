@@ -1,0 +1,41 @@
+
+
+{
+  "brand": "Samsung",
+  "name": "B_Camera1",
+  "location": {
+    "id": 1
+  }
+}
+
+{
+  "brand": "HP Max",
+  "name": "B_Camera2",
+  "location": {
+    "id": 1
+  }
+}
+
+{
+  "brand": "MIdtech",
+  "name": "N_Camera1",
+  "location": {
+    "id": 2
+  }
+}
+
+{
+  "brand": "Hitech",
+  "name": "N_Camera2",
+  "location": {
+    "id": 2
+  }
+}
+
+{
+  "brand": "Hitech",
+  "name": "P_Camera1",
+  "location": {
+    "id": 3
+  }
+}

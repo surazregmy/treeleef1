@@ -1,0 +1,20 @@
+{
+  "number": "Lu 50 Pa 2030",
+  "locations": [
+    {
+      "id": 1
+    },
+    {
+      "id": 2
+    }
+  ]
+}
+
+{
+  "number": "Ba 52 Pa 230",
+  "locations": [
+    {
+      "id": 3
+    }
+  ]
+}

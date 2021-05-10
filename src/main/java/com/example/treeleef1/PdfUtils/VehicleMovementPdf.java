@@ -45,9 +45,9 @@ public class VehicleMovementPdf extends AbstractPdf {
         bodycell.setPhrase(new Phrase(vehicle.getNumber(), bodyfont));
         table.addCell(bodycell);
 
-        cell.setPhrase(new Phrase("Location", font));
-        table.addCell(cell);
         for (Location location : vehicle.getLocations()) {
+            cell.setPhrase(new Phrase("Location", font));
+            table.addCell(cell);
             bodycell.setPhrase(new Phrase(location.getName(), bodyfont));
             table.addCell(bodycell);
             cell.setPhrase(new Phrase("Camera Details", font));

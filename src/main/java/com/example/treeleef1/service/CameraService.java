@@ -16,6 +16,8 @@ import java.util.List;
 public class CameraService {
 
     private final static String NOT_FOUND_MSG = "Camera with ID %s not found";
+    private final static String LOCATION_NOT_FOUND_MSG = "Location with ID %s not found";
+
 
     @Autowired
     CameraDAO cameraDAO;
@@ -32,11 +34,10 @@ public class CameraService {
     }
 
     public int save(Camera camera) throws SQLException, ResourceNotFoundException {
-        Location location = locationDAO.get(camera.getLocation().getId()).orElseThrow(() -> new ResourceNotFoundException(String.format(NOT_FOUND_MSG, camera.getLocation().getId())));
+        Location location = locationDAO.get(camera.getLocation().getId()).orElseThrow(() -> new ResourceNotFoundException(String.format(LOCATION_NOT_FOUND_MSG, camera.getLocation().getId())));
         ;
         return cameraDAO.save(camera);
     }
-
 
 
 }

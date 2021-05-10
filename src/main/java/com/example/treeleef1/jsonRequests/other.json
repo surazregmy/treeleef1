@@ -1,0 +1,2 @@
+http://localhost:8080/api/vehicles/{id}/movementReport
+http: //localhost:8080/api/vehicles/{id}/detectMovement/{locationId}

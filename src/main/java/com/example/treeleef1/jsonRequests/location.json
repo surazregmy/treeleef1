@@ -1,0 +1,23 @@
+http://localhost:8080/api/locations
+
+//POST location
+{
+"name": "banes"
+}
+
+{
+"name": "New Road"
+}
+
+{
+"name": "Putalisadak"
+}
+
+//PUT location
+{
+"id": 1,
+"name": "Baneshwor"
+}
+
+//DELETE location
+DELETE http://localhost:8080/api/locations/1
