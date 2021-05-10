@@ -2,7 +2,7 @@ Solutions to Questions Number 1 to 3 are in:
 src/main/java/com.example.treeleef1/question/**QualificationTaskFromOneTwoThree**
 
 This is a spring boot application that requires JDBC connection :
-Configuration can be managed in database/Database
+Configuration can be managed in database/Database && Create tables by running scripts in mysqlquery/tables.sql
 
 APIS:
 
